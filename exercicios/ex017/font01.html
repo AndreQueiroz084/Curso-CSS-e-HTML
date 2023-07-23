@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes na CSS</title>
+    <style>
+        @import url();
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 16px;
+            font-weight: normal; /* para negrito */
+            /* lighter normal bold bolder */
+            /* também tem o numerico que vai do 100-900 */
+            font-style: italic; /* para colocar como italico */
+            text-decoration: underline; /* para sublinhar */
+        }
+
+        h1{
+            /* forma 1 */font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            /* forma 2 */font: italic bolder 3em 'Work Sans', sans-serif;
+            /* shorthand font 
+            
+            -> font-style -> font-weight -> font-size -> font-family (sempre tem que ser nessa ordem!!!)
+            (shorthand font)sig. eu vou te dar uma mãozinha */
+            /* colocando apenas (font) vc consegue colocar tudo em uma linha */
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
+        } 
+    </style>
+</head>
+<body> <!----> 
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque libero, doloribus minima rem vitae illum quo voluptas doloremque amet hic asperiores deleniti cum possimus eligendi. Provident libero ab repellat cumque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut saepe iusto adipisci delectus itaque officiis explicabo eos, sit beatae enim ex incidunt amet quaerat. Harum dignissimos iste non eveniet quis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolor qui laborum velit accusantium eum dicta ratione, laboriosam dolore eveniet tempore minus facilis similique enim minima vitae. Qui, nisi numquam.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptatum nemo quidem ex, rerum dolor maxime vero vel officia libero nesciunt ipsam? Molestiae delectus animi, eaque tempore sequi doloremque consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ullam, eum sint nostrum quos voluptas illum. Deserunt, commodi error molestias quas vel possimus impedit libero odit? Consectetur molestias asperiores quis.</p>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.principal {
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  border: 2px seagreen solid;
+  margin: 10px;
+}

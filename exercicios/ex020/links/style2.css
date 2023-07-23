@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none; /*tirar o sublinhado do link*/
+  color: seagreen;
+  font-weight: bold; /*negrito*/
+}
+
+a:visited { /*quando o site for visitado ele vai ficar da cor que eu deixar*/
+  color: black;
+}
+
+a:hover { /*quando eu passar o mouse por cima vai ficar do jeito que eu deixar*/
+  text-decoration: underline; /*sublinhar*/
+  color: black;
+}
+
+h1:hover {
+  color: seagreen;
+}
+
+a:active { /*quando tiver ativado vai ficar do jeito que eu deixar*/
+  color: aquamarine;
+}
+
+a::after { /*colocar frazes ou simbolos depois do link*/
+  content: ' [link]';
+  text-decoration: none;
+  font-weight: normal;
+  color: darkgray;
+}
+
+/*temos o "before" que colocar frazes ou simbolos antes do link*/
+
+/*
+  anotação:
+#   = id
+.   = class
+:   = pseudo-class 
+::  = pseudo-element
+>   = clildren
+*/

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-color: black;
+    /*background-image: url(fundo-de-pintura-grunge_1409-1337.avif);*/
+    width: 500px;
+    height: 500px;
+    background-size: 90em;
+}
+    
+h1{
+    color: aliceblue;
+}
+b{
+    color: white;
+} 
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: rebeccapurple;
+}
+.principal {
+    text-align: center;
+}
